@@ -1,0 +1,80 @@
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: #f9f6f1;
+  color: #2e2e2e;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #e0dcd3;
+  padding: 2rem;
+}
+
+header h1 {
+  margin-bottom: 0.2rem;
+  font-size: 2.5rem;
+}
+
+header h2 {
+  margin-top: 0;
+  font-weight: normal;
+  color: #555;
+}
+
+.cover {
+  max-width: 250px;
+  margin: 1rem auto;
+  display: block;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.kapitoly ul {
+  list-style: none;
+  padding: 0;
+}
+
+.kapitoly li {
+  margin: 0.5rem 0;
+}
+
+.kapitoly a {
+  text-decoration: none;
+  color: #5c3b3b;
+  font-weight: bold;
+}
+
+.kapitoly a:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  display: inline-block;
+  background: #5c3b3b;
+  color: white;
+  padding: 0.7rem 1.4rem;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  background: #7a5252;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #e0dcd3;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+}
