@@ -5,6 +5,10 @@
   <title>Jan Salvadore – Autor hudby a příběhů</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       font-family: Georgia, serif;
       background: #fdfaf8;
@@ -12,14 +16,17 @@
       margin: 0;
       padding: 0;
     }
+
     header {
       text-align: center;
       padding: 2rem;
       background: #eee;
     }
+
     header h1 {
       margin-bottom: 0.5rem;
     }
+
     .book-list {
       display: flex;
       flex-wrap: wrap;
@@ -27,25 +34,30 @@
       gap: 2rem;
       padding: 2rem;
     }
+
     .book-list div {
       max-width: 300px;
       text-align: center;
       background: #fff;
       padding: 1rem;
       border-radius: 8px;
-      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
     }
+
     .book-list img {
       width: 100%;
       border-radius: 8px;
     }
+
     .book-list h2 {
       margin: 0.8rem 0 0.4rem;
     }
+
     .book-list p {
       font-size: 0.95rem;
       color: #444;
     }
+
     .book-list a {
       display: inline-block;
       margin: 0.5rem 0.4rem;
@@ -56,6 +68,23 @@
       border-radius: 4px;
       font-size: 0.9rem;
     }
+
+    .music-section {
+      padding: 2rem;
+      background: #f3efec;
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .music-section iframe {
+      width: 100%;
+      height: 200px;
+      max-width: 800px;
+      border: none;
+      margin: 1rem auto;
+      display: block;
+    }
+
     footer {
       text-align: center;
       padding: 2rem;
@@ -69,12 +98,11 @@
   <header>
     <h1>Jan Salvadore</h1>
     <p>O autorovi</p>
-
-    <p>Jan Salvadore je český autor, hudebník a vypravěč, který propojuje slova s tónem tak, aby vznikla krajina pocitů.<p/>
-    <p>Jeho tvorba se nese v jemně melancholickém duchu, často vypráví o věcech, které zůstaly nevyřčeny, a o chvílích, které trvají déle než slova sama <p/>.
-    <p>Sbírka „Tam, kde slova končí“ není jen literárním dílem – je to zvuková zkušenost.<p/>
-    <p>Příběh je podkreslen originální klavírní hudbou, kterou autor složil speciálně tak, aby doprovázela ticho mezi řádky.<p/>
-    <p>Janův přístup je intimní, citlivý a důvěrný. Nenabízí čtenáři odpovědi, ale prostor – prostor k dechu, vzpomínce a tichému zamyšlení.<p/>
+    <p>Jan Salvadore je český autor, hudebník a vypravěč, který propojuje slova s tónem tak, aby vznikla krajina pocitů.</p>
+    <p>Jeho tvorba se nese v jemně melancholickém duchu, často vypráví o věcech, které zůstaly nevyřčeny, a o chvílích, které trvají déle než slova sama.</p>
+    <p>Sbírka „Tam, kde slova končí“ není jen literárním dílem – je to zvuková zkušenost.</p>
+    <p>Příběh je podkreslen originální klavírní hudbou, kterou autor složil speciálně tak, aby doprovázela ticho mezi řádky.</p>
+    <p>Janův přístup je intimní, citlivý a důvěrný. Nenabízí čtenáři odpovědi, ale prostor – prostor k dechu, vzpomínce a tichému zamyšlení.</p>
     <p>Ať už tvoří ve formě příběhu, hudby nebo obrazu, vždy hledá způsob, jak připomenout, že v každém z nás je místo, kde slova už nestačí – a právě tam začíná opravdový příběh.</p>
   </header>
 
@@ -84,7 +112,7 @@
       <h2>Mezi řádky</h2>
       <p>Melancholický příběh doprovázený hudbou, který osloví každého, kdo někdy psal bez adresáta.</p>
       <a href="index_mezi_radky.html">📖 Otevřít</a>
-      <a href="pdf/Mezi_radky.pdf">    Stáhnout PDF </a>
+      <a href="pdf/Mezi_radky.pdf">Stáhnout PDF</a>
       <a href="https://gumroad.com/products/wwlsek" target="_blank">🛒 Koupit</a>
     </div>
 
@@ -92,33 +120,33 @@
       <img src="Popel_sveta.png" alt="Popel světa">
       <h2>Popel světa</h2>
       <p>Temná post-apokalyptická vize, příběh o osamění, zániku a naději.</p>
-      <a href="https://gumroad.com/products/yxjyua">🛒 Koupit</a>
+      <a href="https://gumroad.com/products/yxjyua" target="_blank">🛒 Koupit</a>
     </div>
 
     <div>
-      <img src="Dva_pribehy.png" alt="Tam,kde končí slova">
-      <h2>Tam,kde slova končí</h2>
-      <p>Melancholické příběhy dvou neznámých lidí v různých situacích</p>
-      <a href="https://gumroad.com/products/fqwbmt">🛒 Koupit</a>
+      <img src="Dva_pribehy.png" alt="Tam, kde slova končí">
+      <h2>Tam, kde slova končí</h2>
+      <p>Melancholické příběhy dvou neznámých lidí v různých situacích.</p>
+      <a href="https://gumroad.com/products/fqwbmt" target="_blank">🛒 Koupit</a>
     </div>
 
-      <div>
+    <div>
       <img src="Brana_Stinu" alt="Brána Stínů">
       <h2>Brána Stínů</h2>
-      <p>Historický mysteriózní román s prvky fantasy a cestování časem</p>
-      <a href="https://www.kobo.com/cz/cs/ebook/brana-stinu?sId=73c44925-703d-4ce2-bb0e-f3b285fa5a05🛒 Koupit</a>
+      <p>Historický mysteriózní román s prvky fantasy a cestování časem.</p>
+      <a href="https://www.kobo.com/cz/cs/ebook/brana-stinu?sId=73c44925-703d-4ce2-bb0e-f3b285fa5a05" target="_blank">🛒 Koupit</a>
     </div>
   </section>
 
-  <section style="padding: 2rem; background: #f3efec; text-align: center;">
-  <h2>🎵 Moje hudba</h2>
-  <p>Vydejte se na cestu skrze tóny a nálady, které doprovázejí příběhy. Hudba, která vznikla stejně jako slova – zevnitř.</p>
-  <iframe width="100%" height="166" scrolling="no" frameborder="no"
-    allow="autoplay"
-    src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/jan-plech&color=%23333333&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
-  </iframe>
-  <p><a href="https://soundcloud.com/jan-plech" target="_blank">Navštivte můj SoundCloud profil</a></p>
-</section>
+  <section class="music-section">
+    <h2>🎵 Moje hudba</h2>
+    <p>Vydejte se na cestu skrze tóny a nálady, které doprovázejí příběhy. Hudba, která vznikla stejně jako slova – zevnitř.</p>
+    <iframe
+      src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/jan-plech&color=%23333333&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+      allow="autoplay">
+    </iframe>
+    <p><a href="https://soundcloud.com/jan-plech" target="_blank">Navštivte můj SoundCloud profil</a></p>
+  </section>
 
   <footer>
     © 2025 Jan Salvadore
